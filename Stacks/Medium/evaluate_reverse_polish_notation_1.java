@@ -1,5 +1,5 @@
 class Solution {
-    public int evalRPN(String[] tokens) {
+    public int evalRPN(String[] tokens) { // time taken 26 ms..
         Stack<Integer> stack = new Stack<Integer>();
         for(int i=0;i<tokens.length;i++){
             String ele = tokens[i];
