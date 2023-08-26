@@ -9,7 +9,7 @@ public class Solution {
         }
         return gcd;
     }
-    public static int gcdRecursion(int n,int m){
+    public static int gcdOptimized(int n,int m){
       while(n>0 && m>0){
             if(n>m) n=n%m;
             else m = m%n;
